@@ -1,0 +1,1381 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate the hotel booking module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.BaseClass.UtilityClass.ur(UtilityClass.java:27)\r\n\tat com.BaseClass.UtilityClass.max(UtilityClass.java:31)\r\n\tat com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)\r\n\tat ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)\r\n",
+              "duration": 6217600,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user on the Adactin login page",
+            "match": {
+              "location": "StepDefination.user_on_the_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User give the valid credentials and login",
+            "match": {
+              "location": "StepDefination.user_give_the_valid_credentials_and_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Abarajitha"
+                ]
+              },
+              {
+                "cells": [
+                  "9Z17ON"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4108500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "user give the Hotel information",
+        "description": "",
+        "id": "validating-the-adactin-hotel-booking-site;user-give-the-hotel-information;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 397900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User give the \"Sydney\",\"Hotel Creek\",\"Standard\",\"4 - Four\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 69
+                }
+              ],
+              "location": "StepDefination.user_give_the(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7300,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user search the hotel",
+            "match": {
+              "location": "StepDefination.user_search_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user give the info",
+            "match": {
+              "location": "StepDefination.user_give_the_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6800,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the process",
+            "match": {
+              "location": "StepDefination.verify_the_process()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Validate the hotel booking module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.BaseClass.UtilityClass.ur(UtilityClass.java:27)\r\n\tat com.BaseClass.UtilityClass.max(UtilityClass.java:31)\r\n\tat com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)\r\n\tat ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)\r\n",
+              "duration": 358600,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user on the Adactin login page",
+            "match": {
+              "location": "StepDefination.user_on_the_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User give the valid credentials and login",
+            "match": {
+              "location": "StepDefination.user_give_the_valid_credentials_and_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Abarajitha"
+                ]
+              },
+              {
+                "cells": [
+                  "9Z17ON"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 147900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "user give the Hotel information",
+        "description": "",
+        "id": "validating-the-adactin-hotel-booking-site;user-give-the-hotel-information;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 102500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User give the \"Sydney\",\"Hotel Creek\",\"Standard\",\"5 - Five\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"5 - Five\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 69
+                }
+              ],
+              "location": "StepDefination.user_give_the(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user search the hotel",
+            "match": {
+              "location": "StepDefination.user_search_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7800,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user give the info",
+            "match": {
+              "location": "StepDefination.user_give_the_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6700,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the process",
+            "match": {
+              "location": "StepDefination.verify_the_process()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Validate the hotel booking module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.BaseClass.UtilityClass.ur(UtilityClass.java:27)\r\n\tat com.BaseClass.UtilityClass.max(UtilityClass.java:31)\r\n\tat com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)\r\n\tat ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)\r\n",
+              "duration": 201800,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user on the Adactin login page",
+            "match": {
+              "location": "StepDefination.user_on_the_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User give the valid credentials and login",
+            "match": {
+              "location": "StepDefination.user_give_the_valid_credentials_and_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Abarajitha"
+                ]
+              },
+              {
+                "cells": [
+                  "9Z17ON"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 340900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "user give the Hotel information",
+        "description": "",
+        "id": "validating-the-adactin-hotel-booking-site;user-give-the-hotel-information;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 90800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User give the \"Sydney\",\"Hotel Creek\",\"Standard\",\"6 - Six\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"6 - Six\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 68
+                }
+              ],
+              "location": "StepDefination.user_give_the(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user search the hotel",
+            "match": {
+              "location": "StepDefination.user_search_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user give the info",
+            "match": {
+              "location": "StepDefination.user_give_the_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37800,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the process",
+            "match": {
+              "location": "StepDefination.verify_the_process()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Validate the hotel booking module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.BaseClass.UtilityClass.ur(UtilityClass.java:27)\r\n\tat com.BaseClass.UtilityClass.max(UtilityClass.java:31)\r\n\tat com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)\r\n\tat ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)\r\n",
+              "duration": 189600,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user on the Adactin login page",
+            "match": {
+              "location": "StepDefination.user_on_the_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User give the valid credentials and login",
+            "match": {
+              "location": "StepDefination.user_give_the_valid_credentials_and_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Abarajitha"
+                ]
+              },
+              {
+                "cells": [
+                  "9Z17ON"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 110900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "user give the Hotel information",
+        "description": "",
+        "id": "validating-the-adactin-hotel-booking-site;user-give-the-hotel-information;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 58600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6200,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User give the \"Sydney\",\"Hotel Creek\",\"Standard\",\"7 - Seven\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"7 - Seven\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefination.user_give_the(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6500,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user search the hotel",
+            "match": {
+              "location": "StepDefination.user_search_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user give the info",
+            "match": {
+              "location": "StepDefination.user_give_the_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the process",
+            "match": {
+              "location": "StepDefination.verify_the_process()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Validate the hotel booking module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.BaseClass.UtilityClass.ur(UtilityClass.java:27)\r\n\tat com.BaseClass.UtilityClass.max(UtilityClass.java:31)\r\n\tat com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)\r\n\tat ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)\r\n",
+              "duration": 178700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user on the Adactin login page",
+            "match": {
+              "location": "StepDefination.user_on_the_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User give the valid credentials and login",
+            "match": {
+              "location": "StepDefination.user_give_the_valid_credentials_and_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Abarajitha"
+                ]
+              },
+              {
+                "cells": [
+                  "9Z17ON"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 79000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "user give the Hotel information",
+        "description": "",
+        "id": "validating-the-adactin-hotel-booking-site;user-give-the-hotel-information;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 58200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User give the \"Sydney\",\"Hotel Creek\",\"Standard\",\"8 - Eight\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"8 - Eight\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefination.user_give_the(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user search the hotel",
+            "match": {
+              "location": "StepDefination.user_search_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user give the info",
+            "match": {
+              "location": "StepDefination.user_give_the_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the process",
+            "match": {
+              "location": "StepDefination.verify_the_process()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Validate the hotel booking module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.BaseClass.UtilityClass.ur(UtilityClass.java:27)\r\n\tat com.BaseClass.UtilityClass.max(UtilityClass.java:31)\r\n\tat com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)\r\n\tat ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)\r\n",
+              "duration": 1095800,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user on the Adactin login page",
+            "match": {
+              "location": "StepDefination.user_on_the_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User give the valid credentials and login",
+            "match": {
+              "location": "StepDefination.user_give_the_valid_credentials_and_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Abarajitha"
+                ]
+              },
+              {
+                "cells": [
+                  "9Z17ON"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 268800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "user give the Hotel information",
+        "description": "",
+        "id": "validating-the-adactin-hotel-booking-site;user-give-the-hotel-information;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 317000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User give the \"Sydney\",\"Hotel Creek\",\"Standard\",\"9 - Nine\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"9 - Nine\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 69
+                }
+              ],
+              "location": "StepDefination.user_give_the(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user search the hotel",
+            "match": {
+              "location": "StepDefination.user_search_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5800,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user give the info",
+            "match": {
+              "location": "StepDefination.user_give_the_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5700,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the process",
+            "match": {
+              "location": "StepDefination.verify_the_process()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Validate the hotel booking module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.BaseClass.UtilityClass.ur(UtilityClass.java:27)\r\n\tat com.BaseClass.UtilityClass.max(UtilityClass.java:31)\r\n\tat com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)\r\n\tat ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)\r\n",
+              "duration": 263700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user on the Adactin login page",
+            "match": {
+              "location": "StepDefination.user_on_the_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9200,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User give the valid credentials and login",
+            "match": {
+              "location": "StepDefination.user_give_the_valid_credentials_and_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Abarajitha"
+                ]
+              },
+              {
+                "cells": [
+                  "9Z17ON"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 336100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "user give the Hotel information",
+        "description": "",
+        "id": "validating-the-adactin-hotel-booking-site;user-give-the-hotel-information;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 76400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User give the \"Sydney\",\"Hotel Creek\",\"Standard\",\"10 - Ten\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"10 - Ten\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 69
+                }
+              ],
+              "location": "StepDefination.user_give_the(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user search the hotel",
+            "match": {
+              "location": "StepDefination.user_search_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user give the info",
+            "match": {
+              "location": "StepDefination.user_give_the_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the process",
+            "match": {
+              "location": "StepDefination.verify_the_process()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Validate the hotel booking module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.BaseClass.UtilityClass.ur(UtilityClass.java:27)\r\n\tat com.BaseClass.UtilityClass.max(UtilityClass.java:31)\r\n\tat com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)\r\n\tat ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)\r\n",
+              "duration": 258700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user on the Adactin login page",
+            "match": {
+              "location": "StepDefination.user_on_the_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7900,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User give the valid credentials and login",
+            "match": {
+              "location": "StepDefination.user_give_the_valid_credentials_and_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Abarajitha"
+                ]
+              },
+              {
+                "cells": [
+                  "9Z17ON"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 162800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "user give the Hotel information",
+        "description": "",
+        "id": "validating-the-adactin-hotel-booking-site;user-give-the-hotel-information;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 87200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User give the \"Sydney\",\"Hotel Creek\",\"Double\",\"4 - Four\",\"2 - Two\",\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefination.user_give_the(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user search the hotel",
+            "match": {
+              "location": "StepDefination.user_search_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6700,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user give the info",
+            "match": {
+              "location": "StepDefination.user_give_the_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the process",
+            "match": {
+              "location": "StepDefination.verify_the_process()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Validate the hotel booking module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.BaseClass.UtilityClass.ur(UtilityClass.java:27)\r\n\tat com.BaseClass.UtilityClass.max(UtilityClass.java:31)\r\n\tat com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)\r\n\tat ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)\r\n",
+              "duration": 203900,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user on the Adactin login page",
+            "match": {
+              "location": "StepDefination.user_on_the_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User give the valid credentials and login",
+            "match": {
+              "location": "StepDefination.user_give_the_valid_credentials_and_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Abarajitha"
+                ]
+              },
+              {
+                "cells": [
+                  "9Z17ON"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 84100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "user give the Hotel information",
+        "description": "",
+        "id": "validating-the-adactin-hotel-booking-site;user-give-the-hotel-information;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 45000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User give the \"Sydney\",\"Hotel Creek\",\"Double\",\"5 - Five\",\"2 - Two\",\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"5 - Five\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefination.user_give_the(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user search the hotel",
+            "match": {
+              "location": "StepDefination.user_search_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user give the info",
+            "match": {
+              "location": "StepDefination.user_give_the_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the process",
+            "match": {
+              "location": "StepDefination.verify_the_process()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validating the Adactin Hotel Booking Site",
+    "description": "",
+    "id": "validating-the-adactin-hotel-booking-site",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/adac.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="9" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="0.026898">
+<testcase classname="validating the Adactin Hotel Booking Site" name="user give the Hotel information" time="0.016836">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)&#13;&#10;&#9;at com.BaseClass.UtilityClass.max(UtilityClass.java:31)&#13;&#10;&#9;at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)&#13;&#10;&#9;at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)&#13;&#10;"><![CDATA[Given user on the Adactin login page........................................failed
+When User give the valid credentials and login..............................skipped
+When User give the "Sydney","Hotel Creek","Standard","4 - Four","1 - One","0 - None".skipped
+And user search the hotel...................................................skipped
+And user give the info......................................................skipped
+Then verify the process.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)
+	at com.BaseClass.UtilityClass.max(UtilityClass.java:31)
+	at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)
+	at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="validating the Adactin Hotel Booking Site" name="user give the Hotel information 2" time="0.001855">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)&#13;&#10;&#9;at com.BaseClass.UtilityClass.max(UtilityClass.java:31)&#13;&#10;&#9;at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)&#13;&#10;&#9;at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)&#13;&#10;"><![CDATA[Given user on the Adactin login page........................................failed
+When User give the valid credentials and login..............................skipped
+When User give the "Sydney","Hotel Creek","Standard","5 - Five","1 - One","0 - None".skipped
+And user search the hotel...................................................skipped
+And user give the info......................................................skipped
+Then verify the process.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)
+	at com.BaseClass.UtilityClass.max(UtilityClass.java:31)
+	at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)
+	at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="validating the Adactin Hotel Booking Site" name="user give the Hotel information 3" time="0.001463">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)&#13;&#10;&#9;at com.BaseClass.UtilityClass.max(UtilityClass.java:31)&#13;&#10;&#9;at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)&#13;&#10;&#9;at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)&#13;&#10;"><![CDATA[Given user on the Adactin login page........................................failed
+When User give the valid credentials and login..............................skipped
+When User give the "Sydney","Hotel Creek","Standard","6 - Six","1 - One","0 - None".skipped
+And user search the hotel...................................................skipped
+And user give the info......................................................skipped
+Then verify the process.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)
+	at com.BaseClass.UtilityClass.max(UtilityClass.java:31)
+	at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)
+	at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="validating the Adactin Hotel Booking Site" name="user give the Hotel information 4" time="0.000817">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)&#13;&#10;&#9;at com.BaseClass.UtilityClass.max(UtilityClass.java:31)&#13;&#10;&#9;at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)&#13;&#10;&#9;at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)&#13;&#10;"><![CDATA[Given user on the Adactin login page........................................failed
+When User give the valid credentials and login..............................skipped
+When User give the "Sydney","Hotel Creek","Standard","7 - Seven","1 - One","0 - None".skipped
+And user search the hotel...................................................skipped
+And user give the info......................................................skipped
+Then verify the process.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)
+	at com.BaseClass.UtilityClass.max(UtilityClass.java:31)
+	at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)
+	at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="validating the Adactin Hotel Booking Site" name="user give the Hotel information 5" time="0.000617">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)&#13;&#10;&#9;at com.BaseClass.UtilityClass.max(UtilityClass.java:31)&#13;&#10;&#9;at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)&#13;&#10;&#9;at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)&#13;&#10;"><![CDATA[Given user on the Adactin login page........................................failed
+When User give the valid credentials and login..............................skipped
+When User give the "Sydney","Hotel Creek","Standard","8 - Eight","1 - One","0 - None".skipped
+And user search the hotel...................................................skipped
+And user give the info......................................................skipped
+Then verify the process.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)
+	at com.BaseClass.UtilityClass.max(UtilityClass.java:31)
+	at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)
+	at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="validating the Adactin Hotel Booking Site" name="user give the Hotel information 6" time="0.002452">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)&#13;&#10;&#9;at com.BaseClass.UtilityClass.max(UtilityClass.java:31)&#13;&#10;&#9;at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)&#13;&#10;&#9;at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)&#13;&#10;"><![CDATA[Given user on the Adactin login page........................................failed
+When User give the valid credentials and login..............................skipped
+When User give the "Sydney","Hotel Creek","Standard","9 - Nine","1 - One","0 - None".skipped
+And user search the hotel...................................................skipped
+And user give the info......................................................skipped
+Then verify the process.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)
+	at com.BaseClass.UtilityClass.max(UtilityClass.java:31)
+	at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)
+	at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="validating the Adactin Hotel Booking Site" name="user give the Hotel information 7" time="0.001297">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)&#13;&#10;&#9;at com.BaseClass.UtilityClass.max(UtilityClass.java:31)&#13;&#10;&#9;at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)&#13;&#10;&#9;at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)&#13;&#10;"><![CDATA[Given user on the Adactin login page........................................failed
+When User give the valid credentials and login..............................skipped
+When User give the "Sydney","Hotel Creek","Standard","10 - Ten","1 - One","0 - None".skipped
+And user search the hotel...................................................skipped
+And user give the info......................................................skipped
+Then verify the process.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)
+	at com.BaseClass.UtilityClass.max(UtilityClass.java:31)
+	at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)
+	at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="validating the Adactin Hotel Booking Site" name="user give the Hotel information 8" time="0.000935">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)&#13;&#10;&#9;at com.BaseClass.UtilityClass.max(UtilityClass.java:31)&#13;&#10;&#9;at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)&#13;&#10;&#9;at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)&#13;&#10;"><![CDATA[Given user on the Adactin login page........................................failed
+When User give the valid credentials and login..............................skipped
+When User give the "Sydney","Hotel Creek","Double","4 - Four","2 - Two","1 - One".skipped
+And user search the hotel...................................................skipped
+And user give the info......................................................skipped
+Then verify the process.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)
+	at com.BaseClass.UtilityClass.max(UtilityClass.java:31)
+	at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)
+	at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="validating the Adactin Hotel Booking Site" name="user give the Hotel information 9" time="0.000626">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)&#13;&#10;&#9;at com.BaseClass.UtilityClass.max(UtilityClass.java:31)&#13;&#10;&#9;at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)&#13;&#10;&#9;at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)&#13;&#10;"><![CDATA[Given user on the Adactin login page........................................failed
+When User give the valid credentials and login..............................skipped
+When User give the "Sydney","Hotel Creek","Double","5 - Five","2 - Two","1 - One".skipped
+And user search the hotel...................................................skipped
+And user give the info......................................................skipped
+Then verify the process.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.BaseClass.UtilityClass.ur(UtilityClass.java:27)
+	at com.BaseClass.UtilityClass.max(UtilityClass.java:31)
+	at com.step.StepDefination.user_on_the_Adactin_login_page(StepDefination.java:30)
+	at ✽.user on the Adactin login page(src/test/resources/Features/adac.feature:4)
+]]></failure>
+</testcase>
+</testsuite>
